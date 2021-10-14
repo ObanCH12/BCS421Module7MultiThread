@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog.Builder alert= new AlertDialog.Builder(this);
         alert.setMessage("Hello, Chris");
         alert.setPositiveButton("Yes", (v,a)->{
-            Toast.makeText(MainActivity.this, "You clicked yes, now parish",
+            Toast.makeText(MainActivity.this, "You clicked yes",
                     Toast.LENGTH_LONG).show();
         });
         alert.create().show();
